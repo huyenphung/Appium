@@ -14,6 +14,6 @@ public class HomePageLocator {
 	@FindBy(xpath = "//android.widget.TextView[@text='3. Preference dependencies']")
 	public  AndroidElement  Preferencedependencies;
 	
-	@FindBy(xpath = "android.widget.CheckBox[@resource-id='android:id/checkbox']")
+	@FindBy(xpath = "//android.widget.CheckBox[@resource-id='android:id/checkbox']")
 	public  AndroidElement  wifi;
 }

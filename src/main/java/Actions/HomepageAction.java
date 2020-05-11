@@ -22,7 +22,7 @@ public class HomepageAction {
 HomePageLocator HomePageLocator = new HomePageLocator();
 public TestBase testBase = new TestBase();
 
-	public HomepageAction() throws MalformedURLException {
+	public HomepageAction()  {
 		
 		PageFactory.initElements(new AppiumFieldDecorator(testBase.driver), HomePageLocator);
 		

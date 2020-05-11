@@ -26,8 +26,12 @@ public class PropertyFileReader {
 		return properties.getProperty("location");
 	}
 
-
-	
+	public String DeviceName() {
+		return properties.getProperty("device");
+	}
+	public String DeviceType() {
+		return properties.getProperty("deviceType");
+	}
 
 	
 	}
