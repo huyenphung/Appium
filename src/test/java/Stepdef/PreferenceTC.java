@@ -11,14 +11,14 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 
 public class PreferenceTC {
-	TestBase testBase = new TestBase();
+	
 	HomepageAction homepage = new HomepageAction();
 
 	
 	
 	@Given("^I lauch app$")
 	public void i_lauch_app() throws Throwable {
-		
+		TestBase testBase = new TestBase();
    
 	}
 

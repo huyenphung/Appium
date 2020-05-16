@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 541605926,
+  "duration": 470910082,
   "status": "passed"
 });
 formatter.scenario({
@@ -52,28 +52,28 @@ formatter.match({
   "location": "PreferenceTC.i_lauch_app()"
 });
 formatter.result({
-  "duration": 35539446321,
+  "duration": 41084661260,
   "status": "passed"
 });
 formatter.match({
   "location": "PreferenceTC.i_click_on_preferences()"
 });
 formatter.result({
-  "duration": 696007332,
+  "duration": 696893154,
   "status": "passed"
 });
 formatter.match({
   "location": "PreferenceTC.i_click_on_Preference_dependencies()"
 });
 formatter.result({
-  "duration": 3553922608,
+  "duration": 4706805224,
   "status": "passed"
 });
 formatter.match({
   "location": "PreferenceTC.i_check_on_Wifi()"
 });
 formatter.result({
-  "duration": 4093152892,
+  "duration": 3834377489,
   "status": "passed"
 });
 });
