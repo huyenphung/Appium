@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 296865159,
+  "duration": 541605926,
   "status": "passed"
 });
 formatter.scenario({
@@ -29,12 +29,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 5,
-      "value": "# Given I lauch app"
-    }
-  ],
+  "line": 5,
+  "name": "I lauch app",
+  "keyword": "Given "
+});
+formatter.step({
   "line": 6,
   "name": "i click on preferences",
   "keyword": "When "
@@ -50,24 +49,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
+  "location": "PreferenceTC.i_lauch_app()"
+});
+formatter.result({
+  "duration": 35539446321,
+  "status": "passed"
+});
+formatter.match({
   "location": "PreferenceTC.i_click_on_preferences()"
 });
 formatter.result({
-  "duration": 32635976086,
+  "duration": 696007332,
   "status": "passed"
 });
 formatter.match({
   "location": "PreferenceTC.i_click_on_Preference_dependencies()"
 });
 formatter.result({
-  "duration": 2964949667,
+  "duration": 3553922608,
   "status": "passed"
 });
 formatter.match({
   "location": "PreferenceTC.i_check_on_Wifi()"
 });
 formatter.result({
-  "duration": 3013076706,
+  "duration": 4093152892,
   "status": "passed"
 });
 });

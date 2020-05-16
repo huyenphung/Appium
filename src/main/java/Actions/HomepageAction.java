@@ -20,11 +20,11 @@ public class HomepageAction {
 	
 	
 HomePageLocator HomePageLocator = new HomePageLocator();
-public TestBase testBase = new TestBase();
 
+//TestBase testBase;
 	public HomepageAction()  {
-		
-		PageFactory.initElements(new AppiumFieldDecorator(testBase.driver), HomePageLocator);
+		//this.testBase = testBase;
+		PageFactory.initElements(new AppiumFieldDecorator(TestBase.driver), HomePageLocator);
 		
 	}
 
@@ -35,6 +35,7 @@ public TestBase testBase = new TestBase();
 	public void ClickOnPreferencedependencies() throws MalformedURLException
 	{
 		HomePageLocator.Preferencedependencies.click();	
+	
 	}
 	
 	public void ClickOnwifi() throws MalformedURLException

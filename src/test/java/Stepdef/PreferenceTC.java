@@ -11,14 +11,16 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 
 public class PreferenceTC {
-
+	TestBase testBase = new TestBase();
 	HomepageAction homepage = new HomepageAction();
+
 	
-//	@Given("^I lauch app$")
-//	public void i_lauch_app() throws Throwable {
-//	TestBase testBase = new TestBase();
-//   testBase.reader.Initial();
-//	}
+	
+	@Given("^I lauch app$")
+	public void i_lauch_app() throws Throwable {
+		
+   
+	}
 
 	@When("^i click on preferences$")
 	public void i_click_on_preferences()  throws Throwable  {

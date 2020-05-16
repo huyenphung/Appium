@@ -17,7 +17,7 @@ public class TestBase extends Capabilities {
 	public static Logger log = Logger.getLogger(TestBase.class);
 	
 	public static   Capabilities reader;
-	public   MobileDriver<MobileElement> driver;
+	public static   MobileDriver<MobileElement> driver;
 	static	PropertyFileReader getInformation= new PropertyFileReader();
 	String deviceType = getInformation.DeviceType().toLowerCase();
 	
@@ -27,16 +27,21 @@ public class TestBase extends Capabilities {
 		
 		case "ios":
 			try {
+				if(this.driver==null) {
 				this.driver = reader.InitialIOS();
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			} catch (MalformedURLException e) {
+				
+			} }catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
 		
 		case "android":
 			try {
+			if(this.driver==null) {
 				this.driver = reader.InitialAndroid();
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			}
+				
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}

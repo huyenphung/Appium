@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 296865159,
+              "duration": 541605926,
               "status": "passed"
             },
             "match": {
@@ -23,15 +23,21 @@
         "steps": [
           {
             "result": {
-              "duration": 32635976086,
+              "duration": 35539446321,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 5,
-                "value": "# Given I lauch app"
-              }
-            ],
+            "line": 5,
+            "name": "I lauch app",
+            "match": {
+              "location": "PreferenceTC.i_lauch_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 696007332,
+              "status": "passed"
+            },
             "line": 6,
             "name": "i click on preferences",
             "match": {
@@ -41,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2964949667,
+              "duration": 3553922608,
               "status": "passed"
             },
             "line": 7,
@@ -53,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 3013076706,
+              "duration": 4093152892,
               "status": "passed"
             },
             "line": 8,
